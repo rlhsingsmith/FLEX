@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/readCoil"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="readCoilClickEvent"
+        android:text="read Coil"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/readDiscreteInput"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="readDiscreteInputClickEvent"
+        android:text="read Discrete Input"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/readHoldingRegisters"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="readHoldingRegistersClickEvent"
+        android:text="read Holding Registers"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/readInputRegisters"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="readInputRegistersClickEvent"
+        android:text="read Input Registers"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/writeCoil"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="writeCoilClickEvent"
+        android:text="write Coil"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/writeRegister"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="writeRegisterClickEvent"
+        android:text="write Register"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/writeRegisters"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:onClick="writeRegistersClickEvent"
+        android:text="write Registers" />
+
+    <Button
+        android:id="@+id/mazeReturnBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Return to Main" />
+
+</LinearLayout>
